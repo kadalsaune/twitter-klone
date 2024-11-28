@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/2cf8c8a5-7585-43dc-90b3-2b028030ac66/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/karlarne-cha-24",
+    "appService.deploySubpath": "twitter-clone"
+}

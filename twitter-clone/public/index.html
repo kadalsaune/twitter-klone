@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter-klone</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+  <h1>Twitter-klone</h1>
+
+  <!-- Skjema for å lage et nytt innlegg -->
+  <form id="postForm">
+    <input type="text" id="username" placeholder="Brukernavn" required>
+    <textarea id="content" placeholder="Skriv ditt innlegg her..." required></textarea>
+    <button type="submit">Publiser</button>
+  </form>
+
+  <!-- Område for å vise innlegg -->
+  <div id="postsContainer"></div>
+
+  <script src="/javascripts/app.js"></script>
+</body>
+</html>
